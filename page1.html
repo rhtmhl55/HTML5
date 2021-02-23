@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			hello world page
+		</title>
+	</head>
+	<body>
+
+		<p>Displaying local image in the webpage:</p>
+		<img src="images/network_bg.jpeg" width="100%" height="" alt="image file">
+		<h3 align="center"><u>Welcome to HTML5</u></h3>
+
+		<p align="justify"><b>HTML5</b> is a <em><strong>markup language</strong></em> used for structuring and presenting content on the <strong>World Wide Web.</strong> It is the fifth and last[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft), the Web Hypertext Application Technology Working Group (WHATWG).HTML5 was first released in a public-facing form on 22 January 2008,[4] with a major update and "W3C Recommendation" status in October 2014.[2][5] Its goals were to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software. HTML5 is intended to subsume not only HTML 4 but also XHTML 1 and DOM Level 2 HTML.</p>
+
+		<p align="justify">While some features of HTML5 are often compared to Adobe Flash, the two technologies are very different. Both include features for playing audio and video within web pages, and for using Scalable Vector Graphics. However, HTML5 on its own cannot be used for animation or interactivity – it must be supplemented with CSS3 or JavaScript.<br>
+		There are many Flash capabilities that have no direct counterpart in HTML5 (see Comparison of HTML5 and Flash). HTML5's interactive capabilities became a topic of mainstream media attention around April 2010[16][17][18][19] after Apple Inc.'s then-CEO Steve Jobs issued a public letter titled "Thoughts on Flash" in which he concluded that "Flash is no longer necessary to watch video or consume any kind of web content" and that "new open standards created in the mobile era, such as HTML5, will win".[20] This sparked a debate in web development circles suggesting that, while HTML5 provides enhanced functionality, developers must consider the varying browser support of the different parts of the standard as well as other functionality differences between HTML5 and Flash.[21] In early November 2011, Adobe announced that it would discontinue development of Flash for mobile devices and reorient its efforts in developing tools using HTML5.[22] On 25 July 2017, Adobe announced that both the distribution and support of Flash would cease by the end of 2020.[23] Flash was officially discontinued on 31 December 2020 and all Flash content was blocked from running in Flash Player as of 12 January 2021.</p>
+
+		<p>HTML page can contain:
+		<ol>
+			<li>Tags</li>
+				<ul>
+					<li>html(&lt html &gt)</li>
+					<li>head(&lt head &gt)</li>
+					<li>body(&lt body &gt)</li>
+					<li>paragraph(&lt p &gt)</li>
+					<li>bold(&lt b &gt)</li>
+					<li>italic(&lt i &gt)</li>
+					<li>underline(&lt u &gt), etc.</li>
+				</ul>
+			<li>CSS</li>
+			<li>Scripts</li>
+		</ol></p>
+
+		<p>HTML5 versions:
+		<ul>
+			<li>HTML 5.0</li>
+			<li>HTML 5.1</li>
+			<li>HTML 5.2</li>
+			<li>HTML 5.3</li>
+		</ul></p>
+		<p>Tutorial for HTML : <a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a></p>
+		<h3 align="left">HTML Table:</h3>
+		<table border="1">
+			<tr>
+				<th>Column 1 heading</th>
+				<th>Column 2 heading</th>
+				<th>Column 3 heading</th>
+			</tr>
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+				<td>Row 1, Column 3</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td colspan="2">Row 2, spanning Column 2 and Column 3</td>
+			</tr>
+			<tr>
+				<td rowspan="2">spanning Row 3 and Row 4, Column 1</td>
+				<td>Row 3, Column 2</td>
+				<td>Row 3, Column 3</td>
+			</tr>
+			<tr>
+				<td>Row 4, Column 2</td>
+				<td>Row 4, Column 3</td>
+			</tr>
+		</table>
+
+		<h3 align="left">HTML Form:</h3>
+
+		<form>
+
+		  	<p><label for="fname">First name:</label><br>
+		  	<input type="text" id="fname" name="fname" placeholder="first name"><br></p> <!-- placeholder -->
+
+		  	<p><label for="lname">Last name:</label><br>
+		  	<input type="text" id="lname" name="lname" placeholder="last name"></p>
+
+		  	Gender:<br>
+		  	<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label>
+			<input type="radio" id="don't mention" name="gender" value="don't mention" checked> <!-- checked -->
+			<label for="don't mention">Don't mention</label>
+
+
+		  	<p><label for="code">Enter secret code:</label><br>
+		  	<input type="password" id="code" name="code"><br></p>
+
+		  	<p>Vehicle owned:<br>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bicycle" checked>
+			<label for="vehicle1"> I have a bicycle</label>
+		  	<input type="checkbox" id="vehicle2" name="vehicle2" value="Bike">
+		    <label for="vehicle2"> I have a bike</label>
+		    <input type="checkbox" id="vehicle3" name="vehicle3" value="Car">
+		    <label for="vehicle3"> I have a car</label></p>
+
+			<p><label for="country">Select Country:</label>
+			<select name="country" id="country">
+			    <optgroup label="Asia">
+			    	<option value="china">China</option>
+			    	<option value="japan">Japan</option>
+			    	<option value="india" selected>India</option> <!-- selected -->
+			  	</optgroup>
+			  	<optgroup label="Europe">
+			    	<option value="england">England</option>
+			    	<option value="france">France</option>
+			    	<option value="italy">Italy</option>
+			  	</optgroup>
+			</select></p>
+
+			<p><label for="about yourself">About Yourself:</label><br>
+			<textarea id="about yourself" name="about yourself" rows="4" cols="50" placeholder="Write few lines about yourself"></textarea></p>
+
+			<!-- <input type="submit"> -->
+			<!-- <input type="submit" value="Submit">  -->
+			<input type="button" value="Submit">
+
+			<p>
+			<fieldset>
+			    <legend>Details:</legend>
+
+			    <div><label for="fname2">First name:</label>
+			    <input type="text" id="fname2" name="fname2"></div><br>
+
+			    <div><label for="lname2">Last name:</label>
+			    <input type="text" id="lname2" name="lname2"></div><br>
+
+			    <div><label for="email">Email:</label>
+			    <input type="email" id="email" name="email"></div><br>
+
+			    <div><label for="birthday">Birthday:</label>
+			    <input type="date" id="birthday" name="birthday"></div><br>
+			    <!-- <input type="submit" value="Submit"> -->
+			    <input type="button" value="Submit">
+			</fieldset></p>
+
+		</form>
+
+	</body>
+</html>
